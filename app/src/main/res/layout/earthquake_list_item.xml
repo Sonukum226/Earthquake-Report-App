@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp"
+    >
+
+    <TextView
+        android:id="@+id/magnitude"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        tools:text="7.8"
+        android:background="@drawable/magnitude_circle"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#ffffff"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="center_vertical"
+        >
+    <TextView
+        android:id="@+id/str1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="88km N of"
+        android:textColor="@color/textColorEarthquakeDetails"
+        android:ellipsize="end"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:id="@+id/str2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColorEarthquakeLocation"
+        tools:text="Nasriganj"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textSize="16sp"
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+
+    <TextView
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="24/12/2020"
+        android:textColor="@color/textColorEarthquakeDetails"
+        android:textSize="12sp"
+        android:layout_gravity="end"
+        />
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="3:00pm"
+        android:layout_gravity="end"
+        android:textColor="@color/textColorEarthquakeDetails"
+        android:textSize="12sp"
+        />
+    </LinearLayout>
+</LinearLayout>

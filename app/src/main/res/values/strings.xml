@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">QuakeReport</string>
+
+    <string name="near_the">Near the</string>
+
+    <string name="no_earthquakes">No Earthquake found</string>
+
+    <string name="no_internet_connection">No Internet Connection</string>
+
+    <string name="setting_menu_item">Settings</string>
+
+    <string name="setting_title">Earthquake Settings</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="settings_min_magnitude">Minimum magnitude</string>
+
+    <string name="settings_min_magnitude_key" translatable="false">min_magnitude</string>
+
+    <string name="settings_min_magnitude_default" translatable="false">6</string>
+
+
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
